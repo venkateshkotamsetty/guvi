@@ -9,13 +9,13 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		 int a;
-     int b;
-     int y;
+		 float a;
+     float b;
+     float y;
      Scanner s=new Scanner(System.in);
-     a=s.nextInt();
-       b=s.nextInt();
-       float k=(int)a*b;
+     a=s.nextFloat();
+       b=s.nextFloat();
+       float k=a*b;
        System.out.printf("%.5f",k);
        
 	}
